@@ -1,0 +1,5 @@
+Put your Claude API key in camel.model_backend, line 54 and again at line 173
+
+This no longer takes terminal/console args, but rather created a new arg input inline within run.py - starting at line 54.
+
+I did this since Claude can accept up to 200k context window, you will be able to pass very large instructions/code bases to Claude's ChatDev agents to work out your instructions.
